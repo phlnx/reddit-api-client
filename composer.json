@@ -1,18 +1,18 @@
 {
-    "name": "slavicd/reddit-api-client",
-    "type": "library",
-    "version": "0.1.0",
-    "autoload": {
-        "psr-4": {
-            "Entropi\\RedditClient\\": "src/"
-        }
-    },
-    "require": {
-        "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.0",
-        "vlucas/phpdotenv": "^2.5.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7"
-    }
+	"name": "phlnx/reddit-api-client",
+	"type": "library",
+	"version": "0.1.0",
+	"autoload": {
+		"psr-4": {
+			"Entropi\\RedditClient\\": "src/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzlehttp/guzzle": "~6.0",
+		"vlucas/phpdotenv": "^2.5.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7"
+	}
 }
